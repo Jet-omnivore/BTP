@@ -1,0 +1,13 @@
+{"problem_id": "mmlu-006", "condition_id": "hi_neutral_hi", "verdict": "wrong", "gold": "B", "justification": "Model explicitly answers 'A, C, D'; gold is B. Definite over-answer."}
+{"problem_id": "mmlu-008", "condition_id": "hi_neutral_hi", "verdict": "correct", "gold": "C", "justification": "No FINAL_ANSWER marker but prose ends 'the correct option is: **C**'; gold is C."}
+{"problem_id": "mmlu-008", "condition_id": "hi_none", "verdict": "correct", "gold": "C", "justification": "Answer text 'sarsen, lintel' matches gold choice C ('sarsens, lintels'); reasoning names 30 upright sarsen stones + horizontal lintels."}
+{"problem_id": "mmlu-008", "condition_id": "hi_planning_hi", "verdict": "wrong", "gold": "C", "justification": "Answer 'sarsen, tholoi' pairs sarsens with tholoi; no such choice exists (C is sarsens+lintels, D is trilithon+tholoi). Not the gold."}
+{"problem_id": "mmlu-009", "condition_id": "hi_neutral_hi", "verdict": "wrong", "gold": "C", "justification": "Model commits to 'B and C'; gold is the single option C. Over-answer includes B."}
+{"problem_id": "mmlu-010", "condition_id": "hi_planning_hi", "verdict": "unparseable", "gold": "D", "justification": "Response truncated at 60 chars mid-sentence; no answer emitted. Cannot adjudicate."}
+{"problem_id": "mmlu-013", "condition_id": "hi_neutral_hi", "verdict": "unparseable", "gold": "C", "justification": "Answer 'Beringia' is the shared prefix of options A and C; reasoning does not name the period. No confident gold mapping."}
+{"problem_id": "mmlu-029", "condition_id": "hi_neutral_hi", "verdict": "wrong", "gold": "D", "justification": "Model explicitly rejects D ('all of the above') and commits to 'B and C'; gold is D."}
+{"problem_id": "mmlu-030", "condition_id": "hi_neutral_en", "verdict": "wrong", "gold": "C", "justification": "Commit 'B and C'; gold is single C."}
+{"problem_id": "mmlu-030", "condition_id": "hi_neutral_hi", "verdict": "wrong", "gold": "C", "justification": "Commit 'B and C'; gold is single C."}
+{"problem_id": "mmlu-030", "condition_id": "hi_none", "verdict": "wrong", "gold": "C", "justification": "Answer 'All of the above' is not a listed option and is not the single gold C."}
+{"problem_id": "mmlu-030", "condition_id": "hi_planning_hi", "verdict": "wrong", "gold": "C", "justification": "Commit 'C and D'; gold is single C. Includes gold but over-answers."}
+{"problem_id": "mmlu-033", "condition_id": "hi_planning_hi", "verdict": "unparseable", "gold": "C", "justification": "Response enumerates subfields then ends; no answer committed."}

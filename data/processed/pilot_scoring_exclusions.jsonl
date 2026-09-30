@@ -1,0 +1,17 @@
+{"problem_id":"legacy-013","reason":"Hindi translation omits '5 less than half', changing the numerical problem."}
+{"problem_id":"legacy-020","reason":"Hindi translation omits the return commute, changing the required distance and time."}
+{"problem_id":"legacy-034","reason":"Hindi translation changes 'half as many' and the target combines incompatible units."}
+{"problem_id":"legacy-080","reason":"Hindi translation changes '10 years less' to 'less than 10 years'."}
+{"problem_id":"legacy-082","reason":"Hindi translation changes Jeff completing more skips to Jeff missing more skips."}
+{"problem_id":"legacy-090","reason":"Approximate wording does not support exact numeric scoring."}
+{"problem_id":"legacy-108","reason":"Approximate daily counts do not support exact numeric scoring."}
+{"problem_id":"legacy-109","reason":"The 14-day wording and gold answer are mathematically incompatible."}
+{"problem_id":"legacy-113","reason":"Hindi translation makes the first-day photo reference ambiguous."}
+{"problem_id":"legacy-119","reason":"The starting point and five-week schedule are ambiguous."}
+{"problem_id":"legacy-130","reason":"The wording conflates paid-cone count with customer count."}
+{"problem_id":"legacy-143","reason":"The overlap percentage has an ambiguous denominator."}
+{"problem_id":"legacy-147","reason":"The prompt can request three individual times while the gold answer is their total."}
+{"problem_id":"legacy-154","reason":"Hindi translation changes insurance coverage into an ambiguous insurance amount."}
+{"problem_id":"legacy-188","reason":"The last box's unused count is never determined; gold 70 is incompatible with 'not entirely used'."}
+{"problem_id":"legacy-221","reason":"'600 miles, back and forth' is two-valued; the numeric answer is indeterminate."}
+{"problem_id":"legacy-230","reason":"Answer unit is unspecified (25-foot sections vs feet), giving two defensible single numbers."}

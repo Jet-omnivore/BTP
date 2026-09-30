@@ -1,0 +1,93 @@
+{
+  "experiment_name": "hindi_reasoning_prefills",
+  "prompt_version": "v1",
+  "canonical_answer_instruction": "End with exactly one line in the form FINAL_ANSWER: <answer>.",
+  "stages": {
+    "pilot": [
+      "hi_none",
+      "hi_neutral_hi",
+      "hi_neutral_en",
+      "hi_planning_hi"
+    ],
+    "hard": [
+      "hi_none",
+      "hi_neutral_hi",
+      "hi_neutral_en",
+      "hi_planning_hi"
+    ],
+    "mmlu": [
+      "hi_none",
+      "hi_neutral_hi",
+      "hi_neutral_en",
+      "hi_planning_hi"
+    ],
+    "final": [
+      "en_none",
+      "hi_none",
+      "hi_neutral_hi",
+      "hi_neutral_en",
+      "hi_planning_hi",
+      "hi_planning_en",
+      "hi_verification_hi",
+      "hi_verification_en"
+    ]
+  },
+  "conditions": [
+    {
+      "condition_id": "en_none",
+      "input_language": "en",
+      "prefill_language": "none",
+      "prefill_strategy": "none",
+      "assistant_prefill": ""
+    },
+    {
+      "condition_id": "hi_none",
+      "input_language": "hi",
+      "prefill_language": "none",
+      "prefill_strategy": "none",
+      "assistant_prefill": ""
+    },
+    {
+      "condition_id": "hi_neutral_hi",
+      "input_language": "hi",
+      "prefill_language": "hi",
+      "prefill_strategy": "neutral",
+      "assistant_prefill": "ठीक है, मैं इस समस्या को चरणों में हल करता हूँ।"
+    },
+    {
+      "condition_id": "hi_neutral_en",
+      "input_language": "hi",
+      "prefill_language": "en",
+      "prefill_strategy": "neutral",
+      "assistant_prefill": "Okay, I will solve this problem step by step."
+    },
+    {
+      "condition_id": "hi_planning_hi",
+      "input_language": "hi",
+      "prefill_language": "hi",
+      "prefill_strategy": "planning",
+      "assistant_prefill": "पहले समस्या को छोटे उप-लक्ष्यों में बाँटते हैं।"
+    },
+    {
+      "condition_id": "hi_planning_en",
+      "input_language": "hi",
+      "prefill_language": "en",
+      "prefill_strategy": "planning",
+      "assistant_prefill": "First, let us break the problem into smaller subgoals."
+    },
+    {
+      "condition_id": "hi_verification_hi",
+      "input_language": "hi",
+      "prefill_language": "hi",
+      "prefill_strategy": "verification",
+      "assistant_prefill": "हल करते समय हर मध्यवर्ती परिणाम की जाँच करते हैं।"
+    },
+    {
+      "condition_id": "hi_verification_en",
+      "input_language": "hi",
+      "prefill_language": "en",
+      "prefill_strategy": "verification",
+      "assistant_prefill": "As we solve it, let us check each intermediate result."
+    }
+  ]
+}
